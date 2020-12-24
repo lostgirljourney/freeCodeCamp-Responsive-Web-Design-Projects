@@ -1,4 +1,4 @@
-## **Responsive Web Design Projects**
+<h2 align="center">Responsive Web Design Projects</h2>
 
 ***Gonna put up the projects assigned under "Responsive Web Design Certification" at freecodecamp.org.***
 
