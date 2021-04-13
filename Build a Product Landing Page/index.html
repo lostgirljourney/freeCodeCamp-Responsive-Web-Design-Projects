@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Landing Page</title>
+
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <label
+          ><a href="index.html"
+            ><img
+              src="assets/original_trombones.png"
+              alt="logo"
+              id="header-img" /></a
+        ></label>
+        <!-- [img]https://i.imgur.com/wgt3vSq.png[/img] -->
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="material-icons menu">menu</i>
+        </label>
+        <ul class="nav-ul">
+          <li class="link">
+            <a href="#Features" class="nav-link">Features</a>
+          </li>
+          <li class="link">
+            <a href="#How-It-Works" class="nav-link">How It Works</a>
+          </li>
+          <li class="link">
+            <a href="#Pricing" class="nav-link">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+    <main>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label id="email-label" for="email">
+          Handcrafted, home-made masterpieces </label
+        ><br />
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="Enter your email address"
+          required
+        /><br />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+
+      <div id="Features">
+        <li class="talks">
+          <i class="material-icons feat">local_fire_department</i>
+          <h3 class="select">Premium Materials</h3>
+          <p class="select">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </li>
+        <li class="talks">
+          <i class="material-icons feat">local_shipping</i>
+          <h3 class="select">Fast Shipping</h3>
+          <p class="select">
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </li>
+        <li class="talks">
+          <i class="material-icons feat">done_outline</i>
+          <h3 class="select">Quality Assurance</h3>
+          <p class="select">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </li>
+      </div>
+
+      <div id="How-It-Works">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </div>
+
+      <div id="Pricing">
+        <center>
+          <div class="col col1">
+            <h4>TENOR TROMBONE</h4>
+            <span class="price">$600</span>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            <input type="submit" class="btncls" value="SELECT" />
+          </div>
+          <div class="col col2">
+            <h4>BASS TROMBONE</h4>
+            <span class="price">$900</span>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            <input type="submit" class="btncls" value="SELECT" />
+          </div>
+          <div class="col col3">
+            <h4>VALVE TROMBONE</h4>
+            <span class="price">$1200</span>
+            <li>Plays similar to a Trumpet.</li>
+            <li>Great for Jazz Bands.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+            <input type="submit" class="btncls" value="SELECT" />
+          </div>
+        </center>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Project for freeCodeCamp Responsive Web Design Course Certification.
+        <br />
+        Made with <span style="font-style: normal">&#x1F4BB;</span> and
+        <span style="color: red; font-style: normal">&#10084;</span> by Falguni
+        Sarkar.
+      </p>
+    </footer>
+  </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
