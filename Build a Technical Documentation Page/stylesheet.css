@@ -1,0 +1,118 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+
+#navhead {
+  font-size: 35px;
+  color: whitesmoke;
+  margin-top: 14px;
+}
+
+.navul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: 2px;
+}
+
+.nav-link {
+  color: #b1b1b1;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+  padding: 5px 10px;
+  display: block;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: #c5c5c5;
+}
+
+#navhead {
+  text-align: center;
+}
+
+header {
+  color: black;
+  margin: 15px 0 10px 0px;
+  font-size: 30px;
+  font-weight: 650;
+}
+
+.main-section {
+  margin-left: 310px;
+  overflow: hidden;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+p {
+  margin-left: 7px;
+  text-align: justify;
+}
+
+code {
+  display: block;
+  text-align: left;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1;
+  background-color: #f7f7f7;
+  padding: 7px;
+  margin: 0px 10px 0px 10px;
+  border-radius: 2.5px;
+  font-size: 16px;
+}
+
+#head {
+  text-decoration: none;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    #navbar {
+      position: fixed;
+      min-width: 290px;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 300px;
+      background-color: #111;
+      padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+  .main-doc {
+    width: 100%;
+  }
+  #navbar {
+    padding-top: 2px;
+    background-color: #111;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    border-radius: 5px;
+  }
+  .main-section {
+    margin-left: 0px;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main-doc {
+    width: 100%;
+  }
+  .main-section {
+    margin-left: 0px;
+    overflow: hidden;
+  }
+}
