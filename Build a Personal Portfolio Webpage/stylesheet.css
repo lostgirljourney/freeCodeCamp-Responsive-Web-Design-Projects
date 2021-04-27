@@ -1,0 +1,270 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  display: flexbox;
+  color: #fcecdd;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(assets/leaf.jpg);
+  background-size: cover;
+  scroll-behavior: smooth;
+  margin: 50px;
+  padding: 50px;
+  padding-bottom: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+}
+
+.head {
+  font-family: "Parisienne", cursive;
+  font-weight: 950;
+  font-size: 80px;
+  margin: 0;
+  text-shadow: 0 0 5px #ffd880;
+}
+
+a {
+  text-decoration: none;
+  color: #fcecdd;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.alink {
+  margin: 10px;
+}
+
+.imgli {
+  padding: 2px;
+}
+
+#about,
+#experience {
+  width: 100%;
+}
+
+#abouthead,
+#eduhead,
+#shead,
+#exhead,
+#phead,
+#ahead,
+#chead {
+  text-align: center;
+  font-weight: bolder;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.05px 0px;
+  color: white;
+  border-radius: 3px;
+}
+
+#aboutsec {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.edusec,
+#ssec,
+#psec,
+#asec,
+#csec {
+  margin-top: 15px;
+}
+
+.row,
+#experience,
+#projects {
+  margin-top: 40px;
+}
+
+.column {
+  width: 100%;
+}
+
+.s {
+  margin-bottom: 15px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.submit {
+  border-style: none;
+  padding: 10px 30px;
+  color: white;
+  background-color: #182c25;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 1s;
+  border-style: none;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.submit:hover {
+  transform: scale(1.1);
+}
+
+#foot {
+  transition: transform 1s;
+}
+
+#foot:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 585px) {
+  body {
+    font-size: 15px;
+    margin: 0px;
+  }
+  .head {
+    font-size: 45px;
+  }
+  .imgli {
+    font-weight: bold;
+    float: none;
+    margin: 0;
+  }
+  .main {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 585px) and (max-width: 620px) {
+  body {
+    font-size: 16px;
+    margin: 0px;
+  }
+  .head {
+    font-size: 45px;
+  }
+  .imgli {
+    font-weight: bold;
+    float: none;
+    margin: 0;
+  }
+  .main {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 620px) and (max-width: 900px) {
+  body {
+    font-size: 17px;
+    margin: 0px;
+  }
+  .head {
+    font-size: 50px;
+  }
+  .imgli {
+    font-weight: bold;
+    float: none;
+    margin: 0;
+  }
+  .main {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+  body {
+    margin: 0px;
+  }
+  .header {
+    margin-bottom: 75px;
+    padding: 50px 100px;
+  }
+  .main {
+    padding: 0px 100px;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #skills,
+  #courses {
+    margin-top: 40px;
+  }
+  body {
+    margin-bottom: 0px;
+    bottom: 0;
+  }
+  nav {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+  }
+  #education {
+    margin-right: 10px;
+  }
+  #skills,
+  #courses {
+    margin-left: 10px;
+  }
+  .imgli {
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+  .header {
+    padding: 100px 100px 0 100px;
+    height: 100vh;
+  }
+  .main {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px 100px;
+  }
+  body {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    bottom: 0;
+  }
+  .alink {
+    font-size: 17px;
+  }
+  nav {
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(	24,	44, 37, 0.99);
+    position: fixed;
+    padding: 20px;
+    width: 100%;
+    font-weight: bolder;
+    z-index: 2400;
+  }
+  #navabout {
+    float: right;
+    padding: 5px;
+  }
+  #navabout:hover {
+    background-color: white;
+    color: black;
+  }
+  #about {
+    padding-top: 75px;
+    margin-top: 0;
+  }
+}
