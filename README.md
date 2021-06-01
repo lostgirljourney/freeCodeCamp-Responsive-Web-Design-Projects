@@ -16,7 +16,7 @@
 
 > *Tap on the projects in order to go to respective folders for **source code** and to get the link, check the **README.md** file of the respective folders.*
 
-> ***Project Link** =* *https://github.com/lostgirljourney/freeCodeCamp-Responsive-Web-Design-Projects/projects/1*
+> ***Project Link** =* *https://github.com/users/lostgirljourney/projects/2*
 
 > ***Verify Certification Link** =* *https://www.freecodecamp.org/certification/oindrila/responsive-web-design*
 
