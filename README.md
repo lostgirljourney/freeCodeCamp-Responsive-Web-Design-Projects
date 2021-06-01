@@ -1,6 +1,6 @@
 <h2 align="center">Responsive Web Design Projects</h2>
 
-***Gonna put up the projects assigned under "Responsive Web Design Certification" at freecodecamp.org.***
+***I've put up the projects assigned under "Responsive Web Design Certification" at freecodecamp.org.***
 
 **In this repository, projects mentioned below will be uploaded:**
 
